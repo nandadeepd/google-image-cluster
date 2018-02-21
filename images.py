@@ -7,7 +7,7 @@ images = pandas.read_csv('index.csv')
 def main():
 
 	for index, row in images.iterrows():
-		getImage(row[1], index)
+		getImage(row[1], index) 
 		
 if __name__ == '__main__':
 	main()
